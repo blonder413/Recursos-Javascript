@@ -9,6 +9,8 @@ const fetchPost = () => {
     }, 2000);
   });
 };
+// las promesas son asíncronas
+console.log('inicia operación');
 fetchPost()
   .then((mensaje) => {
     console.log(mensaje);
@@ -16,3 +18,4 @@ fetchPost()
   .catch((error) => {
     console.log(error);
   });
+console.log('termina operación');
