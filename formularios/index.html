@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" id="formulario-donacion">
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo">
+            
+            <br>
+
+            <label for="pais">país</label>
+            <select name="pais" id="pais">
+                <option value="colombia">colombia</option>
+                <option value="peru">Perú</option>
+                <option value="chile">Chile</option>
+            </select>
+
+            <br>
+
+            <label for="donacion">Cantidad</label>
+            5 <input type="radio" name="donacion" id="cantidad-5" value="5">
+            10 <input type="radio" name="donacion" id="cantidad-10" value="10">
+
+            <br>
+
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+
+            <br>
+            <label for="terminos">Términos y condiciones</label>
+            <input type="checkbox" name="terminos-y-condiciones" id="terminos-y-condiciones">
+
+            <br>
+
+            <button type="button" id="enviar">Enviar</button>
+
+        </form>
+        <script src="formullarios.js"></script>
+    </div>
+</body>
+</html>
