@@ -1,0 +1,13 @@
+{
+    "id": 413,
+    "nombre": "jill",
+    "vivo": true,
+    "juegos": [
+        {
+            "titulo": "resident evil"
+        },
+        {
+            "titulo": "resident evil 3 Némesis"
+        }
+    ]
+}
