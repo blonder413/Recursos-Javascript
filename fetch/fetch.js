@@ -33,7 +33,7 @@ function post()
     }
     fetch(`${url}post`, config)
         .then(response => response.json())
-        .then(json => console.loog(json))
+        .then(json => console.log(json))
 }
 
 // PUT
